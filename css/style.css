@@ -110,10 +110,11 @@ select {
 .hero {
     position: relative;
     min-height: 720px;
-    display: flex;
+    display:flex;
     align-items: center;
     overflow: hidden;
     padding-top: 76px;
+
 }
 
 .hero-bg {
@@ -213,6 +214,158 @@ select {
 }
 
 /* ====== Stats ====== */
+
+.stats-section {
+    border-top: 1px solid #181824;
+    border-bottom: 1px solid #181824;
+    background: #0c0c16;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.stat {
+    text-align: center;
+    padding: 28px 10px;
+    border-right: 1px solid #191924;
+}
+
+.stat:last-child {
+    border-right: none;
+}
+
+.stat strong {
+    display: block;
+    font-size: 1.8rem;
+    color: #9a85ff;
+}
+
+.stat span {
+    color: #777789;
+    font-size: 0.72rem;
+}
+
+/* ====== Sections ======*/
+
+.section {
+    padding: 110px 0;
+}
+
+.section-heading {
+    max-width: 650px;
+    margin-bottom: 50px;
+}
+
+.section-heading.centered {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-label {
+    color: #8b6cff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.section-heading h2,
+.growth-content h2,
+.about-content h2,
+.contact-content h2 {
+    font-size: clamp(2rem, 4vw, 3.3rem);
+    line-height: 1.15;
+    letter-spacing: -2px;
+    margin: 12px 0 18px;
+}
+
+.section-heading p,
+.growth-content > p,
+.about-content > p,
+.contact-content > p {
+    color: #858595;
+    font-size: 0.92rem;
+}
+
+
+.services {
+    background: #080812;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.service-card {
+    position: relative;
+    padding: 30px;
+    min-height: 275px;
+    background: #0d0d18;
+    border: 1px solid #1b1b29;
+    border-radius: 12px;
+    transition: 0.35s;
+    overflow: hidden;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(124, 92, 255, 0.5);
+}
+
+.service-card.featured {
+    background:
+        linear-gradient(
+            145deg,
+            rgba(124, 92, 255, 0.18),
+            #0d0d18
+        );
+    border-color: rgba(124, 92, 255, 0.35);
+}
+
+.service-icon {
+    width: 43px;
+    height: 43px;
+    display: grid;
+    place-items: center;
+    background: rgba(124, 92, 255, 0.12);
+    color: #a18cff;
+    border-radius: 9px;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.service-number {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #343442;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.service-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #777787;
+    font-size: 0.82rem;
+    line-height: 1.7;
+}
+
+.service-card a {
+    position: absolute;
+    bottom: 27px;
+    color: #9a84ff;
+    font-size: 0.76rem;
+    font-weight: 600;
+}
+
 
 
 
