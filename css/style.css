@@ -366,6 +366,79 @@ select {
     font-weight: 600;
 }
 
+/*====== About ======*/
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 90px;
+}
+
+.about-visual {
+    position: relative;
+    height: 430px;
+}
+
+.about-box {
+    position: absolute;
+    border: 1px solid #282837;
+    background: #10101b;
+    border-radius: 12px;
+}
+
+.box-main {
+    width: 330px;
+    height: 270px;
+    left: 40px;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    box-shadow: 30px 30px 70px rgba(0, 0, 0, 0.35);
+}
+
+.big-x {
+    font-size: 6rem;
+    font-weight: 800;
+    color: #8b6cff;
+}
+
+.box-main strong,
+.box-main small {
+    display: block;
+}
+
+.box-main strong {
+    font-size: 1.1rem;
+}
+
+.about-features {
+    margin-top: 35px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.about-features div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.about-features strong {
+    color: #8b6cff;
+    font-size: 0.7rem;
+}
+
+.about-features span {
+    color: #aaaaba;
+    font-size: 0.76rem;
+}
+
+
+
 
 
 
