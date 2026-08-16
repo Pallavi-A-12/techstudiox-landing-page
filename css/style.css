@@ -608,6 +608,131 @@ select {
     font-size: 0.62rem;
 }
 
+/* ====== Responsive Design ====== */
+
+@media (max-width: 900px) {
+    .nav-links {
+        position: absolute;
+        top: 76px;
+        left: 0;
+        width: 100px;
+        background: #0b0b14;
+        border-bottom: 1px solid #222230;
+        flex-direction: column;
+        padding: 25px;
+        gap: 20px;
+        transform: translateY(-150%);
+        transition: 0.35s;
+    }
+
+    .nav-links.active {
+        transform: translateY(0);
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .hero-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hero-content > p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-btns {
+        justify-content: center;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .growth-container {
+        grid-template-columns: 1fr;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 92%;
+    }
+
+    .hero {
+        min-height: 780px;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+        letter-spacing: -2.5px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stat {
+        border-bottom: 1px solid #191924;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+       min-height: 250px;
+    }
+
+    .section {
+        padding: 80px 0;
+    }
+
+    .box-main {
+        width: 270px;
+        height: 220px;
+        left: 0;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        gap: 45px;
+    }
+
+    .footer-bottom .container {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+}
 
 
 
