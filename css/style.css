@@ -538,6 +538,9 @@ select {
 
 .submit-btn {
     border: none;
+    background: #7c5cff;
+    color: white;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -546,6 +549,66 @@ select {
     color: #7fe0a7;
     font-size: 0.75rem;
 }
+
+/* ====== Footer ====== */
+
+.footer {
+    background: #06060d;
+    border-top: 1px solid #181824;
+}
+
+.footer-container {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-brand p {
+    max-width: 300px;
+    margin-top: 12px;
+    color: #626273;
+    font-size: 0.72rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 70px;
+}
+
+.footer-links div {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.footer-links h4 {
+    font-size: 0.75rem;
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    color: #686879;
+    font-size: 0.7rem;
+}
+
+.footer-links a:hover {
+    color: #9c87ff;
+}
+
+.footer-bottom {
+    border-top: 1px solid #161620;
+    padding: 18px 0;
+}
+
+.footer-bottom .container {
+    display: flex;
+    justify-content: space-between;
+    color: #4f4f5e;
+    font-size: 0.62rem;
+}
+
+
 
 
 
