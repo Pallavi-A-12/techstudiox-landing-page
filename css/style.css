@@ -137,6 +137,7 @@ select {
     gap: 40px;
 }
 
+
 .hero-content {
     position: relative;
     z-index: 2;
@@ -212,6 +213,95 @@ select {
     border-color: #7c5cff;
     color: #ffffff;
 }
+
+/* ====== Hero Visual ====== */
+
+.hero-visual {
+    height: 500px;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.ai-circle {
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.circle-ring {
+    position: absolute;
+    border: 1px solid rgba(124, 92, 255, 0.35);
+    border-radius: 50%;
+}
+
+.ring-one {
+    inset: 10px;
+    animation: rotate 18s linear infinite;
+}
+
+.ring-two {
+    inset: 45px;
+    border-style: dashed;
+    animation: rotateReverse 14s linear infinite;
+}
+
+.ai-core {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: radial-gradient(
+        circle at 35% 30%,
+        #9b82ff,
+        #4b2bb6
+    );
+    box-shadow:
+        0 0 70px rgba(124, 92, 255, 0.5),
+        inset 0 0 30px rgba(255, 255, 255, 0.2);
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+
+.ai-core span {
+    font-size: 2.7rem;
+    font-weight: 800;
+}
+
+.ai-core small {
+    font-size: 0.55rem;
+    letter-spacing: 4px;
+    color: #ddd;
+}
+
+.orbit-dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #a28cff;
+    box-shadow: 0 0 15px #7c5cff;
+}
+
+.dot-one {
+    top: 22px;
+    right: 65px;
+}
+
+.dot-two {
+    bottom: 35px;
+    left: 45px;
+}
+
+.dot-three {
+    top: 110px;
+    left: 10px;
+}
+
+
 
 /* ====== Stats ====== */
 
