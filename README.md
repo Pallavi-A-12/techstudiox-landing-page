@@ -1,16 +1,18 @@
 # TechStudioX – Responsive Business Landing Page
 
+![Responsive landing page](./assets/Images/Banner-LP.png)
+
 ## Project Overview
 
-    TechStudioX is a modern and responsive business landing page designed for a fictional technology startup that provides digital solutions to modern businesses.
+TechStudioX is a modern and responsive business landing page designed for a fictional technology startup that provides digital solutions to modern businesses.
 
-    This project was developed as part of the RaushByte Technologies Web Development Internship – Level 1, Task 2.
+This project was developed as part of the RaushByte Technologies Web Development Internship – Level 1, Task 2.
 
-    The main objective of this task was to design and develop a professional landing page containing a navigation bar, hero/banner section, services section, and footer while ensuring that the website works smoothly across desktop, tablet, and mobile devices.
+The main objective of this task was to design and develop a professional landing page containing a navigation bar, hero/banner section, services section, and footer while ensuring that the website works smoothly across desktop, tablet, and mobile devices.
 
 ## Project Objective
 
-    The goal of this project is to demonstrate practical knowledge of:
+The goal of this project is to demonstrate practical knowledge of:
 
 - HTML5 for webpage structure
 - CSS3 for styling and responsive layouts
@@ -20,7 +22,7 @@
 - Navigation and section linking
 - Mobile-friendly layouts
 
-    The project focuses on creating a clean, user-friendly interface that can be used as the starting point for a real technology company's website.
+The project focuses on creating a clean, user-friendly interface that can be used as the starting point for a real technology company's website.
 
 ## Features
 
